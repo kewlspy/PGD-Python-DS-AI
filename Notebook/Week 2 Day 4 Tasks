@@ -1,1 +1,12 @@
+# TASK 1
+#===================================
 
+userAge=int(input("Enter your age: "))
+limitAge=18
+if userAge>=18:
+    print("You are old enough to drive.")
+else:
+    if limitAge-userAge==1:
+        print(f"wait for {limitAge-userAge} year")
+    else:
+        print(f"wait for {limitAge-userAge} years")
